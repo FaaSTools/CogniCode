@@ -1,0 +1,10 @@
+{
+  "inputType": "pdf",
+  "inputLanguage": "english",
+  "outputType": "mp3",
+  "outputLanguage": "english",
+  "inputFilePath": "input.pdf",
+  "bucketName": "<your-bucket-name>",
+  "serviceFilePath": "services.json",
+  "llmProvider": "claude"
+}
