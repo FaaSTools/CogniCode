@@ -44,7 +44,9 @@ public abstract class AWSBedrockLLMService implements LLMService {
 
     @Override
     public String sendMessages(List<ChatMessage> messages) {
-        String prompt = convertMessagesToPrompt(messages);
+        String prompt = convertMessagesToPrompt(messages.stream()
+                .filter(m -> m.getContent() != null && !m.getContent().isEmpty())
+                                                        .toList());
 
         InvokeModelRequest request = InvokeModelRequest.builder()
                                                        .modelId(modelIdentifier)

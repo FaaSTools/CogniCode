@@ -21,7 +21,7 @@ public class ClaudeLLMService extends AWSBedrockLLMService {
             body.put("anthropic_version", "bedrock-2023-05-31");
             body.put("max_tokens", 5000);
             body.put("top_p", 0.9);
-            body.put("temperature", 1.0
+            body.put("temperature", 0.7
             );
 
             List<Map<String, Object>> messageList =

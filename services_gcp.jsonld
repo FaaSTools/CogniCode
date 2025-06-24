@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "srv": "http://example.org/services#",
+    "dt": "http://example.org/data-types#",
+
+    "category": "srv:category",
+    "name": "srv:name",
+    "provider": "srv:provider",
+
+    "inputFormats": {
+      "@id": "srv:accepts",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "outputFormats": {
+      "@id": "srv:produces",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "preserves": {
+        "@id": "srv:preserves",
+        "@container": "@set",
+        "@type": "@id"
+    },
+    "capabilities": {
+        "@id": "srv:capabilities",
+        "@container": "@set",
+        "@type": "@id"
+    },
+
+    "limits": {
+      "@id": "srv:hasLimit",
+      "@container": "@index",
+      "@index": "srv:limitName"
+    },
+    "limitName": "srv:limitName",
+    "value": "srv:limitValue",
+    "unit": "srv:limitUnit"
+  },
+
+  "@graph": [
+    {
+      "@id": "srv:CloudTranslation",
+      "category": "TextServices",
+      "name": "Cloud Translation",
+      "provider": "GCP",
+      "inputFormats": ["dt:Text", "dt:HTML"],
+      "outputFormats": [{"@type": "dt:Text", "dt:language": "ANY"},
+                        {"@type": "dt:HTML", "dt:language": "ANY"}],
+      "capabilities": ["Translation"],
+      "limits": {
+        "translate_text": { "value": 30000, "unit": "characters" },
+        "batch_translate_text": { "value": 100000, "unit": "bytes" }
+      }
+    },
+    {
+      "@id": "srv:CloudTextToSpeech",
+      "category": "SpeechServices",
+      "name": "Cloud Text-to-Speech",
+      "provider": "GCP",
+      "inputFormats": ["dt:Text", "dt:SSML"],
+      "outputFormats": ["dt:MP3", "dt:LINEAR16", "dt:OGG"],
+      "capabilities": ["T2S"],
+      "preserves": ["dt:language"],
+      "limits": {
+        "synthesize_speech": { "value": 5000, "unit": "bytes" },
+        "long_audio_synthesize": { "value": 1000000, "unit": "bytes" }
+      }
+    },
+    {
+      "@id": "srv:CloudSpeechToText",
+      "category": "SpeechServices",
+      "name": "Cloud Speech-to-Text",
+      "provider": "GCP",
+      "inputFormats": ["dt:MP3", "dt:WAV", "dt:FLAC"],
+      "outputFormats": ["dt:Text", "dt:SRT", "dt:VTT"],
+      "capabilities": ["S2T"],
+      "preserves": ["dt:language"],
+      "limits": {
+        "streaming_recognize": { "value": 5, "unit": "minutes" },
+        "long_running_recognize": { "value": 480, "unit": "minutes" }
+      }
+    },
+    {
+      "@id": "srv:CloudVisionAPI",
+      "category": "VisionServices",
+      "name": "Cloud Vision API",
+      "provider": "GCP",
+      "inputFormats": ["dt:JPG", "dt:PNG", "dt:PDF"],
+      "outputFormats": ["dt:JSON"],
+      "preserves": ["dt:language"],
+      "capabilities": ["Face", "Labels"],
+      "limits": {
+        "annotate_image": { "value": 20, "unit": "MB" },
+        "async_batch_annotate_images": { "value": 1, "unit": "GB" }
+      }
+    },
+    {
+      "@id": "srv:DocumentAI",
+      "category": "DocumentServices",
+      "name": "Document AI",
+      "provider": "GCP",
+      "inputFormats": ["dt:PDF", "dt:TIFF", "dt:PNG"],
+      "outputFormats": ["dt:Text", "dt:JSON"],
+      "preserves": ["dt:language"],
+      "capabilities": ["OCR", "Forms", "Tables"],
+      "limits": {
+        "process_document": { "value": 20, "unit": "MB" },
+        "batch_process_documents": { "value": 40, "unit": "MB" }
+      }
+    },
+    {
+      "@id": "srv:TranscoderAPI",
+      "category": "MediaServices",
+      "name": "Transcoder API",
+      "provider": "GCP",
+      "inputFormats": ["dt:MP4", "dt:MKV", "dt:MOV", "dt:AVI"],
+      "outputFormats": ["dt:MP4", "dt:MP3", "dt:DASH"],
+      "preserves": ["dt:language"],
+      "capabilities": ["Transcoding", "AudioExtraction"],
+      "limits": {
+        "transcoding_job": { "value": 400, "unit": "GB" }
+      }
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 package org.example.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class Intent {
 
     private String inputType;
@@ -10,9 +12,42 @@ public class Intent {
     private String bucketName;
     private String serviceFilePath;
     private String llmProvider;
+    private String cloudProvider;
 
     public String getInputType() {
         return inputType;
+    }
+
+    @JsonIgnore
+    public String getInputTypeWithoutUri() {
+        if (inputType != null && inputType.contains("#")) {
+            return inputType.substring(inputType.indexOf('#') + 1);
+        }
+        return inputType;
+    }
+
+    @JsonIgnore
+    public String getOutputTypeWithoutUri() {
+        if (outputType != null && outputType.contains("#")) {
+            return outputType.substring(outputType.indexOf('#') + 1);
+        }
+        return outputType;
+    }
+
+    @JsonIgnore
+    public String getInputLanguageWithoutUri() {
+        if (inputLanguage != null && inputLanguage.contains("=")) {
+            return inputLanguage.substring(inputLanguage.indexOf('=') + 1);
+        }
+        return inputLanguage;
+    }
+
+    @JsonIgnore
+    public String getOutputLanguageWithoutUri() {
+        if (outputLanguage != null && outputLanguage.contains("=")) {
+            return outputLanguage.substring(outputLanguage.indexOf('=') + 1);
+        }
+        return outputLanguage;
     }
 
     public void setInputType(String inputType) {
@@ -75,6 +110,14 @@ public class Intent {
         this.llmProvider = llmProvider;
     }
 
+    public String getCloudProvider() {
+        return cloudProvider;
+    }
+
+    public void setCloudProvider(String cloudProvider) {
+        this.cloudProvider = cloudProvider;
+    }
+
     @Override
     public String toString() {
         return "Intent{" +
@@ -86,6 +129,7 @@ public class Intent {
                ", bucketName='" + bucketName + '\'' +
                ", serviceFilePath='" + serviceFilePath + '\'' +
                ", llmProvider='" + llmProvider + '\'' +
+               ", cloudProvider='" + cloudProvider + '\'' +
                '}';
     }
 

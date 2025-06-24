@@ -33,7 +33,7 @@ public class Llama2LLMService extends AWSBedrockLLMService {
                 "prompt", prompt,
                 "max_gen_len", 5000,
                 "temperature", 0.0,
-                "top_p", 0.9
+                "top_p", 1.0
             ));
 
             return jsonBody;

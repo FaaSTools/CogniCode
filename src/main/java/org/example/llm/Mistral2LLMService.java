@@ -32,7 +32,7 @@ public class Mistral2LLMService extends AWSBedrockLLMService {
             bodyMap.put("max_tokens", 5000);
             bodyMap.put("top_p", 0.9);
             bodyMap.put("stop", List.of());
-            bodyMap.put("temperature", 1.0);
+            bodyMap.put("temperature", 0.4);
             bodyMap.put("messages", messageList);
 
             // Convert the body to a JSON string

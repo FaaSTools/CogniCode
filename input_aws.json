@@ -1,0 +1,11 @@
+{
+  "inputType": "http://example.org/data-types#PDF",
+  "inputLanguage": "http://example.org/data-types#language=english",
+  "outputType": "http://example.org/data-types#MP3",
+  "outputLanguage": "http://example.org/data-types#language=english",
+  "inputFilePath": "input.pdf",
+  "bucketName": "<your-bucket-name>",
+  "serviceFilePath": "services_aws.jsonld",
+  "llmProvider": "claude",
+  "cloudProvider": "aws"
+}

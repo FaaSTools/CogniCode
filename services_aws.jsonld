@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "srv": "http://example.org/services#",
+    "dt": "http://example.org/data-types#",
+
+    "category": "srv:category",
+    "name": "srv:name",
+    "provider": "srv:provider",
+
+    "inputFormats": {
+      "@id": "srv:accepts",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "outputFormats": {
+      "@id": "srv:produces",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "preserves": {
+        "@id": "srv:preserves",
+        "@container": "@set",
+        "@type": "@id"
+    },
+    "capabilities": {
+        "@id": "srv:capabilities",
+        "@container": "@set",
+        "@type": "@id"
+    },
+
+    "limits": {
+      "@id": "srv:hasLimit",
+      "@container": "@index",
+      "@index": "srv:limitName"
+    },
+    "limitName": "srv:limitName",
+    "value": "srv:limitValue",
+    "unit": "srv:limitUnit"
+  },
+
+  "@graph": [
+    {
+      "@id": "srv:AWSTranslate",
+      "category": "TextServices",
+      "name": "AWS Translate",
+      "provider": "AWS",
+      "inputFormats": ["dt:Text", "dt:HTML"],
+      "outputFormats": [
+            {"@type": "dt:Text", "dt:language": "ANY"},
+            {"@type": "dt:HTML", "dt:language": "ANY"}
+      ],
+      "capabilities": ["Translation"],
+      "limits": {
+        "translate_text": {"value": 10, "unit": "KB"},
+        "start_text_translation_job": {"value": 10, "unit": "MB"}
+      }
+    },
+    {
+      "@id": "srv:AWSPolly",
+      "category": "SpeechServices",
+      "name": "AWS Polly",
+      "provider": "AWS",
+      "inputFormats": ["dt:Text", "dt:SSML"],
+      "outputFormats": ["dt:MP3", "dt:PCM"],
+      "capabilities": ["T2S"],
+      "preserves": ["dt:language"],
+      "limits": {
+        "synthesize_speech": {"value": 3000, "unit": "characters"},
+        "start_speech_synthesis_task": {"value": 100000, "unit": "characters"}
+      }
+    },
+    {
+      "@id": "srv:AWSTranscribe",
+      "category": "SpeechServices",
+      "name": "AWS Transcribe",
+      "provider": "AWS",
+      "inputFormats": ["dt:MP3", "dt:WAV", "dt:FLAC"],
+      "outputFormats": ["dt:Text", "dt:SRT", "dt:VTT"],
+      "capabilities": ["S2T"],
+      "preserves": ["dt:language"],
+      "limits": {
+        "start_stream_transcription": {"value": 4, "unit": "hours"},
+        "start_transcription_job": {"value": 8, "unit": "hours"}
+      }
+    },
+    {
+      "@id": "srv:AWSRekognition",
+      "category": "VisionServices",
+      "name": "AWS Rekognition",
+      "provider": "AWS",
+      "inputFormats": ["dt:JPG", "dt:PNG"],
+      "outputFormats": ["dt:JSON"],
+      "capabilities": ["Face", "Labels"],
+      "preserves": ["dt:language"],
+      "limits": {
+        "detect_labels": {"value": 5, "unit": "MB"},
+        "start_label_detection": {"value": 500, "unit": "MB"}
+      }
+    },
+    {
+      "@id": "srv:AWSTextract",
+      "category": "DocumentServices",
+      "name": "AWS Textract",
+      "provider": "AWS",
+      "inputFormats": ["dt:PDF", "dt:TIFF", "dt:PNG"],
+      "outputFormats": ["dt:Text", "dt:JSON", "dt:CSV"],
+      "capabilities": ["OCR", "Forms", "Tables"],
+      "preserves": ["dt:language"],
+      "limits": {
+        "analyze_document": {"value": 5, "unit": "MB"},
+        "start_document_analysis": {"value": 500, "unit": "MB"}
+      }
+    },
+    {
+      "@id": "srv:AWSElementalMediaConvert",
+      "category": "MediaServices",
+      "name": "AWS Elemental MediaConvert",
+      "provider": "AWS",
+      "inputFormats": ["dt:MP4", "dt:MKV", "dt:MOV", "dt:AVI"],
+      "outputFormats": ["dt:MP3", "dt:AAC", "dt:MP4"],
+      "capabilities": ["Transcoding", "AudioExtraction"],
+      "preserves": ["dt:language"],
+      "limits": {
+        "transcoding_job": {"value": 10, "unit": "GB"}
+      }
+    }
+  ]
+}
