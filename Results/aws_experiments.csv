@@ -1,0 +1,481 @@
+﻿model;wf;temp;iter;time_s
+Claude Sonnet 3.5v2;Workflow 2;0;2;120
+Claude Sonnet 3.5v2;Workflow 2;0;1;57
+Claude Sonnet 3.5v2;Workflow 2;0;10;101
+Claude Sonnet 3.5v2;Workflow 2;0;2;128
+Claude Sonnet 3.5v2;Workflow 2;0;2;98
+Claude Sonnet 3.5v2;Workflow 2;0;2;120
+Claude Sonnet 3.5v2;Workflow 2;0;2;100
+Claude Sonnet 3.5v2;Workflow 2;0;2;129
+Claude Sonnet 3.5v2;Workflow 2;0;1;74
+Claude Sonnet 3.5v2;Workflow 2;0;2;210
+Claude Sonnet 3.5v2;Workflow 2;0.4;1;57
+Claude Sonnet 3.5v2;Workflow 2;0.4;1;53
+Claude Sonnet 3.5v2;Workflow 2;0.4;2;104
+Claude Sonnet 3.5v2;Workflow 2;0.4;1;62
+Claude Sonnet 3.5v2;Workflow 2;0.4;1;60
+Claude Sonnet 3.5v2;Workflow 2;0.4;2;125
+Claude Sonnet 3.5v2;Workflow 2;0.4;2;134
+Claude Sonnet 3.5v2;Workflow 2;0.4;2;185
+Claude Sonnet 3.5v2;Workflow 2;0.4;2;179
+Claude Sonnet 3.5v2;Workflow 2;0.4;1;85
+Claude Sonnet 3.5v2;Workflow 2;0.7;1;60
+Claude Sonnet 3.5v2;Workflow 2;0.7;2;126
+Claude Sonnet 3.5v2;Workflow 2;0.7;1;56
+Claude Sonnet 3.5v2;Workflow 2;0.7;1;58
+Claude Sonnet 3.5v2;Workflow 2;0.7;1;67
+Claude Sonnet 3.5v2;Workflow 2;0.7;2;198
+Claude Sonnet 3.5v2;Workflow 2;0.7;1;73
+Claude Sonnet 3.5v2;Workflow 2;0.7;1;53
+Claude Sonnet 3.5v2;Workflow 2;0.7;2;111
+Claude Sonnet 3.5v2;Workflow 2;0.7;1;56
+Claude Sonnet 3.5v2;Workflow 2;1;1;69
+Claude Sonnet 3.5v2;Workflow 2;1;1;76
+Claude Sonnet 3.5v2;Workflow 2;1;1;50
+Claude Sonnet 3.5v2;Workflow 2;1;2;121
+Claude Sonnet 3.5v2;Workflow 2;1;2;186
+Claude Sonnet 3.5v2;Workflow 2;1;2;124
+Claude Sonnet 3.5v2;Workflow 2;1;2;152
+Claude Sonnet 3.5v2;Workflow 2;1;1;78
+Claude Sonnet 3.5v2;Workflow 2;1;2;150
+Claude Sonnet 3.5v2;Workflow 2;1;1;171
+Claude Sonnet 3.5v2;Workflow 3;0;1;79
+Claude Sonnet 3.5v2;Workflow 3;0;1;106
+Claude Sonnet 3.5v2;Workflow 3;0;1;105
+Claude Sonnet 3.5v2;Workflow 3;0;1;214
+Claude Sonnet 3.5v2;Workflow 3;0;2;175
+Claude Sonnet 3.5v2;Workflow 3;0;2;220
+Claude Sonnet 3.5v2;Workflow 3;0;1;81
+Claude Sonnet 3.5v2;Workflow 3;0;1;78
+Claude Sonnet 3.5v2;Workflow 3;0;2;163
+Claude Sonnet 3.5v2;Workflow 3;0;2;200
+Claude Sonnet 3.5v2;Workflow 3;0.4;1;129
+Claude Sonnet 3.5v2;Workflow 3;0.4;1;131
+Claude Sonnet 3.5v2;Workflow 3;0.4;1;110
+Claude Sonnet 3.5v2;Workflow 3;0.4;1;79
+Claude Sonnet 3.5v2;Workflow 3;0.4;1;83
+Claude Sonnet 3.5v2;Workflow 3;0.4;1;173
+Claude Sonnet 3.5v2;Workflow 3;0.4;1;70
+Claude Sonnet 3.5v2;Workflow 3;0.4;2;210
+Claude Sonnet 3.5v2;Workflow 3;0.4;1;137
+Claude Sonnet 3.5v2;Workflow 3;0.4;2;156
+Claude Sonnet 3.5v2;Workflow 3;0.7;2;130
+Claude Sonnet 3.5v2;Workflow 3;0.7;1;75
+Claude Sonnet 3.5v2;Workflow 3;0.7;1;89
+Claude Sonnet 3.5v2;Workflow 3;0.7;2;146
+Claude Sonnet 3.5v2;Workflow 3;0.7;1;96
+Claude Sonnet 3.5v2;Workflow 3;0.7;1;81
+Claude Sonnet 3.5v2;Workflow 3;0.7;1;101
+Claude Sonnet 3.5v2;Workflow 3;0.7;2;142
+Claude Sonnet 3.5v2;Workflow 3;0.7;2;366
+Claude Sonnet 3.5v2;Workflow 3;0.7;1;104
+Claude Sonnet 3.5v2;Workflow 3;1;1;88
+Claude Sonnet 3.5v2;Workflow 3;1;2;142
+Claude Sonnet 3.5v2;Workflow 3;1;2;143
+Claude Sonnet 3.5v2;Workflow 3;1;2;137
+Claude Sonnet 3.5v2;Workflow 3;1;1;86
+Claude Sonnet 3.5v2;Workflow 3;1;1;112
+Claude Sonnet 3.5v2;Workflow 3;1;1;150
+Claude Sonnet 3.5v2;Workflow 3;1;1;108
+Claude Sonnet 3.5v2;Workflow 3;1;1;83
+Claude Sonnet 3.5v2;Workflow 3;1;1;86
+Claude Sonnet 3.5v2;Workflow 1;0;1;60
+Claude Sonnet 3.5v2;Workflow 1;0;1;53
+Claude Sonnet 3.5v2;Workflow 1;0;1;51
+Claude Sonnet 3.5v2;Workflow 1;0;1;52
+Claude Sonnet 3.5v2;Workflow 1;0;1;59
+Claude Sonnet 3.5v2;Workflow 1;0;1;52
+Claude Sonnet 3.5v2;Workflow 1;0;1;62
+Claude Sonnet 3.5v2;Workflow 1;0;1;67
+Claude Sonnet 3.5v2;Workflow 1;0;1;64
+Claude Sonnet 3.5v2;Workflow 1;0;1;54
+Claude Sonnet 3.5v2;Workflow 1;0.4;1;56
+Claude Sonnet 3.5v2;Workflow 1;0.4;1;42
+Claude Sonnet 3.5v2;Workflow 1;0.4;1;54
+Claude Sonnet 3.5v2;Workflow 1;0.4;1;56
+Claude Sonnet 3.5v2;Workflow 1;0.4;1;70
+Claude Sonnet 3.5v2;Workflow 1;0.4;1;48
+Claude Sonnet 3.5v2;Workflow 1;0.4;2;86
+Claude Sonnet 3.5v2;Workflow 1;0.4;1;55
+Claude Sonnet 3.5v2;Workflow 1;0.4;1;47
+Claude Sonnet 3.5v2;Workflow 1;0.4;1;67
+Claude Sonnet 3.5v2;Workflow 1;0.7;1;43
+Claude Sonnet 3.5v2;Workflow 1;0.7;1;53
+Claude Sonnet 3.5v2;Workflow 1;0.7;1;55
+Claude Sonnet 3.5v2;Workflow 1;0.7;1;59
+Claude Sonnet 3.5v2;Workflow 1;0.7;1;45
+Claude Sonnet 3.5v2;Workflow 1;0.7;1;66
+Claude Sonnet 3.5v2;Workflow 1;0.7;1;61
+Claude Sonnet 3.5v2;Workflow 1;0.7;1;93
+Claude Sonnet 3.5v2;Workflow 1;0.7;1;57
+Claude Sonnet 3.5v2;Workflow 1;0.7;1;51
+Claude Sonnet 3.5v2;Workflow 1;1;1;86
+Claude Sonnet 3.5v2;Workflow 1;1;1;62
+Claude Sonnet 3.5v2;Workflow 1;1;1;45
+Claude Sonnet 3.5v2;Workflow 1;1;1;51
+Claude Sonnet 3.5v2;Workflow 1;1;1;49
+Claude Sonnet 3.5v2;Workflow 1;1;1;93
+Claude Sonnet 3.5v2;Workflow 1;1;1;108
+Claude Sonnet 3.5v2;Workflow 1;1;1;102
+Claude Sonnet 3.5v2;Workflow 1;1;1;56
+Claude Sonnet 3.5v2;Workflow 1;1;1;72
+Llama 3.1 70B;Workflow 2;0;10;2476
+Llama 3.1 70B;Workflow 2;0;10;2167
+Llama 3.1 70B;Workflow 2;0;10;1976
+Llama 3.1 70B;Workflow 2;0;10;2287
+Llama 3.1 70B;Workflow 2;0;10;1803
+Llama 3.1 70B;Workflow 2;0;10;1899
+Llama 3.1 70B;Workflow 2;0;10;1994
+Llama 3.1 70B;Workflow 2;0;10;2537
+Llama 3.1 70B;Workflow 2;0;10;2193
+Llama 3.1 70B;Workflow 2;0;10;1746
+Llama 3.1 70B;Workflow 2;0.4;10;2047
+Llama 3.1 70B;Workflow 2;0.4;10;1268
+Llama 3.1 70B;Workflow 2;0.4;10;1376
+Llama 3.1 70B;Workflow 2;0.4;10;1434
+Llama 3.1 70B;Workflow 2;0.4;10;1288
+Llama 3.1 70B;Workflow 2;0.4;10;1413
+Llama 3.1 70B;Workflow 2;0.4;10;1189
+Llama 3.1 70B;Workflow 2;0.4;10;1344
+Llama 3.1 70B;Workflow 2;0.4;10;1246
+Llama 3.1 70B;Workflow 2;0.4;10;1392
+Llama 3.1 70B;Workflow 2;0.7;10;806
+Llama 3.1 70B;Workflow 2;0.7;10;1685
+Llama 3.1 70B;Workflow 2;0.7;10;753
+Llama 3.1 70B;Workflow 2;0.7;10;917
+Llama 3.1 70B;Workflow 2;0.7;10;857
+Llama 3.1 70B;Workflow 2;0.7;10;835
+Llama 3.1 70B;Workflow 2;0.7;10;1738
+Llama 3.1 70B;Workflow 2;0.7;10;886
+Llama 3.1 70B;Workflow 2;0.7;10;1654
+Llama 3.1 70B;Workflow 2;0.7;10;1607
+Llama 3.1 70B;Workflow 2;1;10;709
+Llama 3.1 70B;Workflow 2;1;10;1433
+Llama 3.1 70B;Workflow 2;1;10;928
+Llama 3.1 70B;Workflow 2;1;10;1117
+Llama 3.1 70B;Workflow 2;1;10;866
+Llama 3.1 70B;Workflow 2;1;10;1103
+Llama 3.1 70B;Workflow 2;1;10;1125
+Llama 3.1 70B;Workflow 2;1;10;960
+Llama 3.1 70B;Workflow 2;1;10;844
+Llama 3.1 70B;Workflow 2;1;10;1472
+Llama 3.1 70B;Workflow 3;0;10;1991
+Llama 3.1 70B;Workflow 3;0;10;1964
+Llama 3.1 70B;Workflow 3;0;10;1890
+Llama 3.1 70B;Workflow 3;0;10;2128
+Llama 3.1 70B;Workflow 3;0;10;1756
+Llama 3.1 70B;Workflow 3;0;10;3435
+Llama 3.1 70B;Workflow 3;0;10;1097
+Llama 3.1 70B;Workflow 3;0;10;617
+Llama 3.1 70B;Workflow 3;0;10;3659
+Llama 3.1 70B;Workflow 3;0;10;2578
+Llama 3.1 70B;Workflow 3;0.4;10;2942
+Llama 3.1 70B;Workflow 3;0.4;10;653
+Llama 3.1 70B;Workflow 3;0.4;10;904
+Llama 3.1 70B;Workflow 3;0.4;10;1224
+Llama 3.1 70B;Workflow 3;0.4;10;2810
+Llama 3.1 70B;Workflow 3;0.4;10;1564
+Llama 3.1 70B;Workflow 3;0.4;10;102
+Llama 3.1 70B;Workflow 3;0.4;10;1357
+Llama 3.1 70B;Workflow 3;0.4;10;2832
+Llama 3.1 70B;Workflow 3;0.4;10;2789
+Llama 3.1 70B;Workflow 3;0.7;10;1299
+Llama 3.1 70B;Workflow 3;0.7;10;1792
+Llama 3.1 70B;Workflow 3;0.7;10;3259
+Llama 3.1 70B;Workflow 3;0.7;10;1505
+Llama 3.1 70B;Workflow 3;0.7;10;1265
+Llama 3.1 70B;Workflow 3;0.7;10;3023
+Llama 3.1 70B;Workflow 3;0.7;10;3419
+Llama 3.1 70B;Workflow 3;0.7;10;557
+Llama 3.1 70B;Workflow 3;0.7;10;908
+Llama 3.1 70B;Workflow 3;0.7;10;3262
+Llama 3.1 70B;Workflow 3;1;10;968
+Llama 3.1 70B;Workflow 3;1;10;1658
+Llama 3.1 70B;Workflow 3;1;10;1408
+Llama 3.1 70B;Workflow 3;1;10;1802
+Llama 3.1 70B;Workflow 3;1;10;420
+Llama 3.1 70B;Workflow 3;1;10;1212
+Llama 3.1 70B;Workflow 3;1;10;877
+Llama 3.1 70B;Workflow 3;1;10;2836
+Llama 3.1 70B;Workflow 3;1;10;2238
+Llama 3.1 70B;Workflow 3;1;10;2651
+Llama 3.1 70B;Workflow 1;0;10;346
+Llama 3.1 70B;Workflow 1;0;10;539
+Llama 3.1 70B;Workflow 1;0;10;870
+Llama 3.1 70B;Workflow 1;0;10;632
+Llama 3.1 70B;Workflow 1;0;10;377
+Llama 3.1 70B;Workflow 1;0;10;624
+Llama 3.1 70B;Workflow 1;0;10;112
+Llama 3.1 70B;Workflow 1;0;10;493
+Llama 3.1 70B;Workflow 1;0;10;592
+Llama 3.1 70B;Workflow 1;0;10;2255
+Llama 3.1 70B;Workflow 1;0.4;10;1025
+Llama 3.1 70B;Workflow 1;0.4;10;482
+Llama 3.1 70B;Workflow 1;0.4;10;1391
+Llama 3.1 70B;Workflow 1;0.4;10;228
+Llama 3.1 70B;Workflow 1;0.4;10;728
+Llama 3.1 70B;Workflow 1;0.4;5;258
+Llama 3.1 70B;Workflow 1;0.4;10;833
+Llama 3.1 70B;Workflow 1;0.4;10;164
+Llama 3.1 70B;Workflow 1;0.4;10;371
+Llama 3.1 70B;Workflow 1;0.4;10;768
+Llama 3.1 70B;Workflow 1;0.7;10;99
+Llama 3.1 70B;Workflow 1;0.7;10;401
+Llama 3.1 70B;Workflow 1;0.7;10;1135
+Llama 3.1 70B;Workflow 1;0.7;8;341
+Llama 3.1 70B;Workflow 1;0.7;7;234
+Llama 3.1 70B;Workflow 1;0.7;10;655
+Llama 3.1 70B;Workflow 1;0.7;10;346
+Llama 3.1 70B;Workflow 1;0.7;10;829
+Llama 3.1 70B;Workflow 1;0.7;10;781
+Llama 3.1 70B;Workflow 1;0.7;10;1380
+Llama 3.1 70B;Workflow 1;1;10;1345
+Llama 3.1 70B;Workflow 1;1;10;588
+Llama 3.1 70B;Workflow 1;1;3;98
+Llama 3.1 70B;Workflow 1;1;5;229
+Llama 3.1 70B;Workflow 1;1;10;151
+Llama 3.1 70B;Workflow 1;1;10;363
+Llama 3.1 70B;Workflow 1;1;10;218
+Llama 3.1 70B;Workflow 1;1;10;336
+Llama 3.1 70B;Workflow 1;1;10;836
+Llama 3.1 70B;Workflow 1;1;10;1029
+Mistral Large 24.07;Workflow 2;0;3;253
+Mistral Large 24.07;Workflow 2;0;3;172
+Mistral Large 24.07;Workflow 2;0;10;724
+Mistral Large 24.07;Workflow 2;0;5;444
+Mistral Large 24.07;Workflow 2;0;3;137
+Mistral Large 24.07;Workflow 2;0;2;146
+Mistral Large 24.07;Workflow 2;0;3;226
+Mistral Large 24.07;Workflow 2;0;2;242
+Mistral Large 24.07;Workflow 2;0;2;124
+Mistral Large 24.07;Workflow 2;0;2;126
+Mistral Large 24.07;Workflow 2;0.4;5;263
+Mistral Large 24.07;Workflow 2;0.4;2;154
+Mistral Large 24.07;Workflow 2;0.4;1;360
+Mistral Large 24.07;Workflow 2;0.4;1;70
+Mistral Large 24.07;Workflow 2;0.4;4;251
+Mistral Large 24.07;Workflow 2;0.4;1;54
+Mistral Large 24.07;Workflow 2;0.4;2;114
+Mistral Large 24.07;Workflow 2;0.4;1;83
+Mistral Large 24.07;Workflow 2;0.4;4;184
+Mistral Large 24.07;Workflow 2;0.4;2;93
+Mistral Large 24.07;Workflow 2;0.7;7;611
+Mistral Large 24.07;Workflow 2;0.7;10;689
+Mistral Large 24.07;Workflow 2;0.7;8;469
+Mistral Large 24.07;Workflow 2;0.7;3;331
+Mistral Large 24.07;Workflow 2;0.7;3;164
+Mistral Large 24.07;Workflow 2;0.7;2;103
+Mistral Large 24.07;Workflow 2;0.7;2;88
+Mistral Large 24.07;Workflow 2;0.7;10;717
+Mistral Large 24.07;Workflow 2;0.7;2;105
+Mistral Large 24.07;Workflow 2;0.7;2;106
+Mistral Large 24.07;Workflow 2;1;4;355
+Mistral Large 24.07;Workflow 2;1;2;102
+Mistral Large 24.07;Workflow 2;1;3;194
+Mistral Large 24.07;Workflow 2;1;1;87
+Mistral Large 24.07;Workflow 2;1;4;497
+Mistral Large 24.07;Workflow 2;1;1;70
+Mistral Large 24.07;Workflow 2;1;2;160
+Mistral Large 24.07;Workflow 2;1;3;337
+Mistral Large 24.07;Workflow 2;1;1;143
+Mistral Large 24.07;Workflow 2;1;2;82
+Mistral Large 24.07;Workflow 3;0;10;561
+Mistral Large 24.07;Workflow 3;0;5;424
+Mistral Large 24.07;Workflow 3;0;2;149
+Mistral Large 24.07;Workflow 3;0;5;436
+Mistral Large 24.07;Workflow 3;0;6;420
+Mistral Large 24.07;Workflow 3;0;5;437
+Mistral Large 24.07;Workflow 3;0;4;315
+Mistral Large 24.07;Workflow 3;0;7;486
+Mistral Large 24.07;Workflow 3;0;10;1042
+Mistral Large 24.07;Workflow 3;0;2;152
+Mistral Large 24.07;Workflow 3;0.4;5;457
+Mistral Large 24.07;Workflow 3;0.4;4;306
+Mistral Large 24.07;Workflow 3;0.4;5;406
+Mistral Large 24.07;Workflow 3;0.4;3;283
+Mistral Large 24.07;Workflow 3;0.4;10;655
+Mistral Large 24.07;Workflow 3;0.4;10;802
+Mistral Large 24.07;Workflow 3;0.4;3;311
+Mistral Large 24.07;Workflow 3;0.4;3;231
+Mistral Large 24.07;Workflow 3;0.4;3;221
+Mistral Large 24.07;Workflow 3;0.4;10;712
+Mistral Large 24.07;Workflow 3;0.7;4;510
+Mistral Large 24.07;Workflow 3;0.7;10;563
+Mistral Large 24.07;Workflow 3;0.7;7;521
+Mistral Large 24.07;Workflow 3;0.7;6;590
+Mistral Large 24.07;Workflow 3;0.7;10;644
+Mistral Large 24.07;Workflow 3;0.7;3;210
+Mistral Large 24.07;Workflow 3;0.7;4;318
+Mistral Large 24.07;Workflow 3;0.7;4;421
+Mistral Large 24.07;Workflow 3;0.7;3;239
+Mistral Large 24.07;Workflow 3;0.7;10;641
+Mistral Large 24.07;Workflow 3;1;10;675
+Mistral Large 24.07;Workflow 3;1;10;550
+Mistral Large 24.07;Workflow 3;1;6;414
+Mistral Large 24.07;Workflow 3;1;2;177
+Mistral Large 24.07;Workflow 3;1;3;303
+Mistral Large 24.07;Workflow 3;1;9;586
+Mistral Large 24.07;Workflow 3;1;4;332
+Mistral Large 24.07;Workflow 3;1;5;332
+Mistral Large 24.07;Workflow 3;1;3;213
+Mistral Large 24.07;Workflow 3;1;5;369
+Mistral Large 24.07;Workflow 1;0;1;67
+Mistral Large 24.07;Workflow 1;0;1;38
+Mistral Large 24.07;Workflow 1;0;2;55
+Mistral Large 24.07;Workflow 1;0;2;49
+Mistral Large 24.07;Workflow 1;0;1;59
+Mistral Large 24.07;Workflow 1;0;1;31
+Mistral Large 24.07;Workflow 1;0;1;34
+Mistral Large 24.07;Workflow 1;0;2;55
+Mistral Large 24.07;Workflow 1;0;2;49
+Mistral Large 24.07;Workflow 1;0;1;41
+Mistral Large 24.07;Workflow 1;0.4;2;52
+Mistral Large 24.07;Workflow 1;0.4;1;32
+Mistral Large 24.07;Workflow 1;0.4;1;31
+Mistral Large 24.07;Workflow 1;0.4;1;29
+Mistral Large 24.07;Workflow 1;0.4;1;37
+Mistral Large 24.07;Workflow 1;0.4;1;30
+Mistral Large 24.07;Workflow 1;0.4;1;37
+Mistral Large 24.07;Workflow 1;0.4;1;32
+Mistral Large 24.07;Workflow 1;0.4;1;42
+Mistral Large 24.07;Workflow 1;0.4;1;31
+Mistral Large 24.07;Workflow 1;0.7;2;59
+Mistral Large 24.07;Workflow 1;0.7;1;30
+Mistral Large 24.07;Workflow 1;0.7;1;51
+Mistral Large 24.07;Workflow 1;0.7;1;39
+Mistral Large 24.07;Workflow 1;0.7;1;31
+Mistral Large 24.07;Workflow 1;0.7;2;66
+Mistral Large 24.07;Workflow 1;0.7;1;38
+Mistral Large 24.07;Workflow 1;0.7;1;31
+Mistral Large 24.07;Workflow 1;0.7;2;49
+Mistral Large 24.07;Workflow 1;0.7;1;36
+Mistral Large 24.07;Workflow 1;1;1;26
+Mistral Large 24.07;Workflow 1;1;1;42
+Mistral Large 24.07;Workflow 1;1;2;108
+Mistral Large 24.07;Workflow 1;1;2;56
+Mistral Large 24.07;Workflow 1;1;2;58
+Mistral Large 24.07;Workflow 1;1;1;30
+Mistral Large 24.07;Workflow 1;1;1;33
+Mistral Large 24.07;Workflow 1;1;2;58
+Mistral Large 24.07;Workflow 1;1;2;70
+Mistral Large 24.07;Workflow 1;1;2;64
+OpenAI ChatGPT-4o;Workflow 2;0;3;86
+OpenAI ChatGPT-4o;Workflow 2;0;3;84
+OpenAI ChatGPT-4o;Workflow 2;0;3;86
+OpenAI ChatGPT-4o;Workflow 2;0;3;96
+OpenAI ChatGPT-4o;Workflow 2;0;4;119
+OpenAI ChatGPT-4o;Workflow 2;0;2;70
+OpenAI ChatGPT-4o;Workflow 2;0;3;111
+OpenAI ChatGPT-4o;Workflow 2;0;3;106
+OpenAI ChatGPT-4o;Workflow 2;0;3;124
+OpenAI ChatGPT-4o;Workflow 2;0;3;238
+OpenAI ChatGPT-4o;Workflow 2;0.4;4;151
+OpenAI ChatGPT-4o;Workflow 2;0.4;3;429
+OpenAI ChatGPT-4o;Workflow 2;0.4;5;183
+OpenAI ChatGPT-4o;Workflow 2;0.4;3;98
+OpenAI ChatGPT-4o;Workflow 2;0.4;4;122
+OpenAI ChatGPT-4o;Workflow 2;0.4;2;90
+OpenAI ChatGPT-4o;Workflow 2;0.4;3;115
+OpenAI ChatGPT-4o;Workflow 2;0.4;4;154
+OpenAI ChatGPT-4o;Workflow 2;0.4;3;143
+OpenAI ChatGPT-4o;Workflow 2;0.4;2;112
+OpenAI ChatGPT-4o;Workflow 2;0.7;1;37
+OpenAI ChatGPT-4o;Workflow 2;0.7;4;301
+OpenAI ChatGPT-4o;Workflow 2;0.7;3;121
+OpenAI ChatGPT-4o;Workflow 2;0.7;3;86
+OpenAI ChatGPT-4o;Workflow 2;0.7;4;137
+OpenAI ChatGPT-4o;Workflow 2;0.7;2;104
+OpenAI ChatGPT-4o;Workflow 2;0.7;8;227
+OpenAI ChatGPT-4o;Workflow 2;0.7;3;262
+OpenAI ChatGPT-4o;Workflow 2;0.7;3;101
+OpenAI ChatGPT-4o;Workflow 2;0.7;2;76
+OpenAI ChatGPT-4o;Workflow 2;1;3;138
+OpenAI ChatGPT-4o;Workflow 2;1;1;90
+OpenAI ChatGPT-4o;Workflow 2;1;1;63
+OpenAI ChatGPT-4o;Workflow 2;1;3;85
+OpenAI ChatGPT-4o;Workflow 2;1;2;68
+OpenAI ChatGPT-4o;Workflow 2;1;2;85
+OpenAI ChatGPT-4o;Workflow 2;1;3;113
+OpenAI ChatGPT-4o;Workflow 2;1;3;112
+OpenAI ChatGPT-4o;Workflow 2;1;3;107
+OpenAI ChatGPT-4o;Workflow 2;1;3;108
+OpenAI ChatGPT-4o;Workflow 3;0;3;157
+OpenAI ChatGPT-4o;Workflow 3;0;2;133
+OpenAI ChatGPT-4o;Workflow 3;0;3;159
+OpenAI ChatGPT-4o;Workflow 3;0;10;428
+OpenAI ChatGPT-4o;Workflow 3;0;2;133
+OpenAI ChatGPT-4o;Workflow 3;0;2;165
+OpenAI ChatGPT-4o;Workflow 3;0;2;268
+OpenAI ChatGPT-4o;Workflow 3;0;3;241
+OpenAI ChatGPT-4o;Workflow 3;0;2;272
+OpenAI ChatGPT-4o;Workflow 3;0;2;164
+OpenAI ChatGPT-4o;Workflow 3;0.4;10;460
+OpenAI ChatGPT-4o;Workflow 3;0.4;3;154
+OpenAI ChatGPT-4o;Workflow 3;0.4;4;315
+OpenAI ChatGPT-4o;Workflow 3;0.4;3;290
+OpenAI ChatGPT-4o;Workflow 3;0.4;2;151
+OpenAI ChatGPT-4o;Workflow 3;0.4;3;150
+OpenAI ChatGPT-4o;Workflow 3;0.4;2;121
+OpenAI ChatGPT-4o;Workflow 3;0.4;3;260
+OpenAI ChatGPT-4o;Workflow 3;0.4;3;271
+OpenAI ChatGPT-4o;Workflow 3;0.4;3;206
+OpenAI ChatGPT-4o;Workflow 3;0.7;2;144
+OpenAI ChatGPT-4o;Workflow 3;0.7;3;231
+OpenAI ChatGPT-4o;Workflow 3;0.7;3;206
+OpenAI ChatGPT-4o;Workflow 3;0.7;2;156
+OpenAI ChatGPT-4o;Workflow 3;0.7;10;834
+OpenAI ChatGPT-4o;Workflow 3;0.7;5;406
+OpenAI ChatGPT-4o;Workflow 3;0.7;2;255
+OpenAI ChatGPT-4o;Workflow 3;0.7;3;311
+OpenAI ChatGPT-4o;Workflow 3;0.7;5;356
+OpenAI ChatGPT-4o;Workflow 3;0.7;4;315
+OpenAI ChatGPT-4o;Workflow 3;1;3;319
+OpenAI ChatGPT-4o;Workflow 3;1;4;329
+OpenAI ChatGPT-4o;Workflow 3;1;3;290
+OpenAI ChatGPT-4o;Workflow 3;1;3;166
+OpenAI ChatGPT-4o;Workflow 3;1;5;678
+OpenAI ChatGPT-4o;Workflow 3;1;4;322
+OpenAI ChatGPT-4o;Workflow 3;1;3;134
+OpenAI ChatGPT-4o;Workflow 3;1;2;100
+OpenAI ChatGPT-4o;Workflow 3;1;2;119
+OpenAI ChatGPT-4o;Workflow 3;1;2;187
+OpenAI ChatGPT-4o;Workflow 1;0;1;20
+OpenAI ChatGPT-4o;Workflow 1;0;1;20
+OpenAI ChatGPT-4o;Workflow 1;0;1;24
+OpenAI ChatGPT-4o;Workflow 1;0;1;22
+OpenAI ChatGPT-4o;Workflow 1;0;1;20
+OpenAI ChatGPT-4o;Workflow 1;0;1;20
+OpenAI ChatGPT-4o;Workflow 1;0;2;201
+OpenAI ChatGPT-4o;Workflow 1;0;1;71
+OpenAI ChatGPT-4o;Workflow 1;0;1;36
+OpenAI ChatGPT-4o;Workflow 1;0;2;49
+OpenAI ChatGPT-4o;Workflow 1;0.4;1;60
+OpenAI ChatGPT-4o;Workflow 1;0.4;1;20
+OpenAI ChatGPT-4o;Workflow 1;0.4;1;18
+OpenAI ChatGPT-4o;Workflow 1;0.4;1;20
+OpenAI ChatGPT-4o;Workflow 1;0.4;2;66
+OpenAI ChatGPT-4o;Workflow 1;0.4;2;129
+OpenAI ChatGPT-4o;Workflow 1;0.4;1;24
+OpenAI ChatGPT-4o;Workflow 1;0.4;3;239
+OpenAI ChatGPT-4o;Workflow 1;0.4;1;33
+OpenAI ChatGPT-4o;Workflow 1;0.4;1;78
+OpenAI ChatGPT-4o;Workflow 1;0.7;2;61
+OpenAI ChatGPT-4o;Workflow 1;0.7;1;19
+OpenAI ChatGPT-4o;Workflow 1;0.7;3;99
+OpenAI ChatGPT-4o;Workflow 1;0.7;4;101
+OpenAI ChatGPT-4o;Workflow 1;0.7;1;22
+OpenAI ChatGPT-4o;Workflow 1;0.7;1;22
+OpenAI ChatGPT-4o;Workflow 1;0.7;2;155
+OpenAI ChatGPT-4o;Workflow 1;0.7;4;214
+OpenAI ChatGPT-4o;Workflow 1;0.7;1;25
+OpenAI ChatGPT-4o;Workflow 1;0.7;1;37
+OpenAI ChatGPT-4o;Workflow 1;1;3;67
+OpenAI ChatGPT-4o;Workflow 1;1;1;25
+OpenAI ChatGPT-4o;Workflow 1;1;1;26
+OpenAI ChatGPT-4o;Workflow 1;1;2;75
+OpenAI ChatGPT-4o;Workflow 1;1;2;69
+OpenAI ChatGPT-4o;Workflow 1;1;1;24
+OpenAI ChatGPT-4o;Workflow 1;1;2;67
+OpenAI ChatGPT-4o;Workflow 1;1;1;38
+OpenAI ChatGPT-4o;Workflow 1;1;2;61
+OpenAI ChatGPT-4o;Workflow 1;1;1;31
