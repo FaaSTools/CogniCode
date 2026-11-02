@@ -65,3 +65,5 @@ The rows of the other three models in this file, `generalization_gcp.csv`, and t
 ### Adding a service
 
 Add one entry to `services_aws.jsonld` with its accepted, produced, and preserved features. Each entry also needs a `category` field, which must be one of `TextServices`, `SpeechServices`, `VisionServices`, `DocumentServices`, or `MediaServices`. Plans are derived per intent at runtime, so no other change is needed. [`extension_example/`](./extension_example/) demonstrates this with AWS Comprehend.
+
+*Note: The category only groups the services. It does not affect planning or the prompt, so any of the five values works.*
