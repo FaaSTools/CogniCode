@@ -44,7 +44,7 @@ Additional Requirements:
 - If you need a bucket, use the following: hello-12345
 - As default region please use: us-east-1
 - If you need a role use the following: mediaconvert_trust
-- The account id is the following: 717556240325
+- The account id is the following: <account-id>
 - Implement proper error handling for each service
 - Validate input/output at each step
 - For transcription I only want the text as a result not the whole transcription json content
