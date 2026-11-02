@@ -28,15 +28,10 @@ Each service has specific capabilities and limitations that must be respected:
    Accepts: PDF, TIFF, PNG
    Produces: Text, JSON, CSV
    Must connect to: AWS Polly
-   APIs: 
-       - analyze_document (limit: 5MB)
-       - start_label_detection (limit: 500MB)
 2. AWS Polly
    Accepts: Text, SSML
    Produces: MP3, PCM
-   APIs: 
-      - synthesize_speech (limit: 3000 characters)
-      - start_speech_synthesis_task (limit: 10000 characters) 
+
 
 Overall Pipeline Requirements:
 1. Initial input: pdf in english

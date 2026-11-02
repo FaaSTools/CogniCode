@@ -336,7 +336,7 @@ public class LLMRequestExecutor {
             "4. Implement proper error handling and validation between service transitions\n");
 
         // Append job settings if video conversion is needed
-        if (videoConversionNeeded && false) {
+        if (videoConversionNeeded && cloudProvider.equalsIgnoreCase("aws")) {
             description.append("\nVideo Conversion Example Job Settings:\n").append(cloudProvider.equalsIgnoreCase("aws") ? VIDEO_CONVERSION_JOB_SETTINGS_AWS : VIDEO_CONVERSION_JOB_SETTINGS_GCP).append("\n");
         }
 

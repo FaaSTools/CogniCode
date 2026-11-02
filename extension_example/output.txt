@@ -1,0 +1,23 @@
+UC1
+  original ontology: PDF -> AWSTextract -> Text -> AWSPolly -> MP3
+  extended ontology: PDF -> AWSTextract -> Text -> AWSPolly -> MP3
+  unchanged
+
+UC2
+  original ontology: MP3 -> AWSTranscribe -> Text -> AWSTranslate -> Text -> AWSPolly -> MP3
+  extended ontology: MP3 -> AWSTranscribe -> Text -> AWSTranslate -> Text -> AWSPolly -> MP3
+  unchanged
+
+UC3
+  original ontology: MP4 -> AWSElementalMediaConvert -> MP3 -> AWSTranscribe -> Text
+  extended ontology: MP4 -> AWSElementalMediaConvert -> MP3 -> AWSTranscribe -> Text
+  unchanged
+
+NEW (audio sentiment)
+  original ontology: no plan found
+  extended ontology: MP3 -> AWSTranscribe -> Text -> AWSComprehend -> JSON
+  CHANGED
+
+Pipeline handed to the Orchestration Agent for the new intent:
+  AWS Transcribe: accepts [MP3, WAV, FLAC], produces [SRT, VTT, Text]
+  AWS Comprehend: accepts [Text], produces [JSON]
